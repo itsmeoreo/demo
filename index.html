@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botstrape training</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+  rel="stylesheet" 
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark-subtle" id="nav-bar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">KFC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+          <button class="btn btn-success mx-2" type="button">Delevery</button>
+          <button class="btn btn-primary me-1" id="reg" type="button">Dine In</button>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero-section">
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-auto fs-1 my-auto ">
+          <h1 id="Brand_title">KFC</h1>
+          <p class="fst-italic fw-lighter font-monospace fs-4">It's finger licking good</p>
+        </div>
+        <div class="col-md-4">
+          <img src="KFC_logo-image.svg.png" width="180%" alt="finger licking good">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner my-5">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-4">
+              <img src="kfc.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="kfc1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="kfc2.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-4">
+              <img src="kfc1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="kfc.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="kfc1.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-4">
+              <img src="kfc2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="kfc1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="kfc.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <section class=" bg-danger-subtle py-5" id="explore">
+    <div class="container p-3">
+      <h1>Explore</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card text-center">
+            <div class="cardbody text-danger">
+              <img height="100" src="utensils-solid.svg" alt="menu">
+              <h3 class="card-title pb-2">Our menu</h3>
+              <p class="card-text pb-3">
+                Explore our delicious range of fried chicken burgers and more
+              </p>
+            </div>
+            <div class="card-footer text-bg-danger">
+              <a href="#our-menu">Discover fried chicken</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card text-center">
+            <div class="cardbody text-danger">
+              <img height="100" src="burger-solid.svg" alt="menu">
+              <h3 class="card-title pb-2">50% on burgers</h3>
+              <p class="card-text pb-3">
+                Enjoy upto 50% off on selected burgers more than $300
+              </p>
+            </div>
+            <div class="card-footer bg-danger">
+              <a href="#">Get offer
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card text-center">
+            <div class="card text-center">
+            <div class="cardbody text-danger">
+              <img height="100" src="utensils-solid.svg" alt="menu">
+              <h3 class="card-title pb-2">Our menu</h3>
+              <p class="card-text pb-3">
+                Explore our delicious range of fried chicken burgers and more
+              </p>
+            </div>
+            <div class="card-footer bg-danger">
+              <a href="#our-menu">Discover fried chicken</a>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card text-center">
+            <div class="cardbody text-danger">
+              <img height="100" src="burger-solid.svg" alt="menu">
+              <h3 class="card-title pb-2">50% on burgers</h3>
+              <p class="card-text pb-3">
+                Enjoy upto 50% off on selected burgers more than $300
+              </p>
+            </div>
+            <div class="card-footer bg-danger">
+              <a href="#">Get offer
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="application bg-danger-subtle my-5">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-6 pt-5 ps-5">
+          <img width="100%" src="dominos.png" alt="">
+        </div>
+        <div class="col-6 p-5">
+          <h2 class="application pt-4"> <strong>Unlock Exclusive Offers</strong> </h2>
+          <p class="description pt-3">For lightning fast ordering experience download the Domino’s app</p>
+          <div class="row pt-4">
+            <div class="col-6 pe-0">
+              <button class="btn">
+                <img width="90%" src="googleplay.png" alt="">
+              </button>
+            </div>
+
+            <div class="col-6 ps-0">
+              <button class="btn">
+                <img width="90%%" src="applestore.png" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu m-4" id="our-menu">
+    <div class="row my-3">
+
+      <div class="col-4">
+        <div class="card text-center bg-danger text-light">
+          <div class="card-body">
+            <h4 class="card-title">Chicken buckets</h4>
+            <img width="70%" src="bucket.jpeg" alt="">
+            <p class="card-text">
+              your favourite fried chicken in different flavoures in a bucket
+            </p>
+            <button class="btn btn-outline-light">view all</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+
+        <div class="card text-center bg-danger text-light">
+          <div class="card-body">
+            <h4 class="card-title">rolls</h4>
+            <img width="70%" src="rools.jpeg" alt="">
+            <p class="card-text">
+              All new chicken rolls.. try it and rick your addiction level
+            </p>
+            <button class="btn btn-outline-light">view all</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card text-center bg-danger text-light">
+          <div class="card-body">
+            <h4 class="card-title">burgers</h4>
+            <img width="70%" src="burger.jpeg" alt="">
+            <p class="card-text">
+              Indulge into mouth-watering taste of our fried chicken burgers
+            </p>
+            <button class="btn btn-outline-light">view all</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+
+      <div class="col-4">
+        <div class="card text-center bg-danger text-light">
+          <div class="card-body">
+            <h4 class="card-title">Combos</h4>
+            <img width="70%" src="combos.jpeg" alt="">
+            <p class="card-text"> 
+              Everthing you need in a single pack.. chicken, burgers, snacks etc.,
+            </p>
+            <button class="btn btn-outline-light">view all</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card h-100 text-center bg-danger text-light">
+          <div class="card-body">
+            <h4 class="card-title">snacks</h4>
+            <img width="70%" src="snacks.jpeg" alt="">
+            <p class="card-text">
+              Bored have a snack
+            </p>
+            <button class="btn btn-outline-light mt-4">view all</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card text-center text-light bg-danger">
+          <div class="card-body">
+            <h4 class="card-title">dips</h4>
+            <img width="70%" src="dips.jpeg" alt="">
+            <p class="card-text">
+              Add extra taste for your fried chicken with our dips
+            </p>
+            <button class="btn btn-outline-light">view all</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container mt-5 p-3">
+    <div class="row">
+      <div class="col">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quae quam sit nemo voluptatum illum sapiente? Ratione assumenda voluptate eum odit corrupti voluptas sit magnam? Placeat earum perspiciatis eum repellendus.
+        </p>
+      </div>
+      <div class="col">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quae quam sit nemo voluptatum illum sapiente? Ratione assumenda voluptate eum odit corrupti voluptas sit magnam? Placeat earum perspiciatis eum repellendus.
+        </p>
+      </div>
+      <div class="col">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quae quam sit nemo voluptatum illum sapiente? Ratione assumenda voluptate eum odit corrupti voluptas sit magnam? Placeat earum perspiciatis eum repellendus.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center text-lg-start bg-dark-subtle text-muted">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+   
+      <div class="ms-5 d-none d-lg-block float-end">
+        <span>Social networks:</span>
+      </div>
+
+      <div>
+        <a href="https://www.facebook.com/KFC/" class="me-4 link-secondary">
+          <i class="fab fa-facebook" style="color: rgb(61, 61, 255);">
+            <img width="30" src="facebook.svg" alt="fa-facebook-f">
+          </i>
+        </a>
+        <a href="https://twitter.com/kfc?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="me-4 link-secondary">
+          <i class="fab fa-twitter" style="color: rgb(0, 115, 255);">
+            <img width="30" src="x-twitter.svg" alt="fa-twitter">
+          </i>
+        </a>
+        <a href="https://www.youtube.com/KFC" class="me-4 link-secondary">
+          <i class="fab fa-youtube" style="color: red;">
+          <img width="30" src="youtube.svg" alt="fa-youtube">
+          </i>
+        </a>
+        <a href="https://www.instagram.com/kfc/?hl=en" class="me-4 link-secondary">
+          <i class="fab fa-instagram" style="color: rgb(255, 0, 166);">
+            <img width="30" src="instagram.svg" alt="fa-instagram">
+          </i>
+        </a>
+      </div>
+    </section>
+  
+  
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-2">
+          <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-3">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-3">
+              <i class="fas me-3 text-secondary"></i>Menu
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Veg pizza</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Chickan pizza</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Pasta</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Burgar pizza</a>
+            </p>
+          </div>
+          
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Company
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Blog</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Invester</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Feedback</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Ads</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              PIZZA RESTARUANTS
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Restaruant nearme</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Food nearme</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Food Delivery</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Order Food Online</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          
+            <h6 class="text-uppercase fw-bold mb-4">
+              ABOUT
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Gift Card</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Card balance enquiry</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">FAQ</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Virtual pizza party</a>
+            </p>
+          </div>    
+    </section>
+    
+    <div class="text-center text-light p-4" style="background-color: red;">
+      All Rights Reserved. Copyright ©️ Jubilant FoodWorks Ltd.
+    </div>
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+  crossorigin="anonymous">
+  </script>
+</body>
+</html>
